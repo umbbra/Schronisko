@@ -1,0 +1,32 @@
+.nav{
+ padding: 0 30px 30px 0;
+}
+.nav-list{
+ padding: 0 30px 30px 0;
+}
+/* .nav-item{} */
+.nav-link{
+ display: block;
+ padding: 10px;
+ color: white;
+ text-decoration: none;
+ text-transform: 0;
+ letter-spacing: 2px;
+ transition: all .1s;
+}
+
+.nav-link:hover{
+ color: #61dafb;
+ transform: translateX(10px);
+}
+
+.active{
+ color: #61dafb;
+}
+
+.active::after{
+ display: block;
+ content: "";
+ border-bottom: 1px solid white;
+}
+

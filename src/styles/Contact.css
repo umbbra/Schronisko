@@ -1,0 +1,44 @@
+textarea {
+ display: inline-block;
+ background-color: transparent;
+  border: 1px solid rgba(180, 180, 180, 0.452);
+ margin: 20px;
+ font-size: 16px;
+ width: 80%;
+ min-height: 290px;
+}
+
+.form-title{
+ margin: 20px;
+}
+
+textarea:focus {
+ border-color: rgba(70, 70, 70, 0.836)
+}
+
+label {
+ display: block;
+ text-align: left;
+}
+
+button {
+ display: block;
+ margin: 0 20% 0 auto;
+ padding: 10px 15px;
+ background-color: rgba(95, 95, 95, 0.493);
+ color: white;
+ border: none;
+ border-bottom: 2px solid rgba(0, 0, 0, 0.452);
+ border-right: 2px solid rgba(0, 0, 0, 0.452);
+ cursor: pointer;
+ font-size: 20px;
+ border-radius: 10px;
+ transition: all .2s;
+}
+
+
+button:hover{
+ color: #ffffff;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.452);
+ border-right: 1px solid rgba(0, 0, 0, 0.452);
+}
